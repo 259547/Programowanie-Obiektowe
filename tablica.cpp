@@ -28,7 +28,7 @@ int** wczytywanie (){
 	plik>>liczbakolumn;
 	int**tablica = nowatablica(liczbakolumn,liczbawierszy);
 	for (int i=0; i<liczbawierszy;i++){
-		for (int j=0; j<liczbawierszy;j++){
+		for (int j=0; j<liczbakolumn;j++){
 		plik>>tablica[i][j];
 		}
 		}

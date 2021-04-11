@@ -1,0 +1,1 @@
+void wyswietltablica(int**tablica,int x, int y);

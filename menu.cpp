@@ -1,6 +1,6 @@
 #include<iostream>
 #include "tablica.h"
-
+#include "tablica_wysw.h"
 
 using namespace std;
 
@@ -15,22 +15,26 @@ void wypiszmenu() {
 
 void menu() {
     int**tablica;
+    
+            int x;
+            int y;
+    for (;;){
+
     wypiszmenu() ;
     cout<<"Co chcesz zrobić?"<<endl;
     int i;
     cin>> i;   
     switch (i){
         case 1:
-            cout<<"Podaj ile chcesz wierszy";
-            int x;
-            cin>> x;
             cout<<"Podaj ile chcesz kolumn";
-            int y;
+            cin>> x;
+            cout<<"Podaj ile chcesz wierszy";
             cin>> y;
-
-
+            tablica= nowatablica(x,y);
+            
         break;
         case 2:
+            wyswietltablica(tablica,x,y);
 
         break;
         case 3:
@@ -49,6 +53,7 @@ void menu() {
 
     }
 
+    }
 
 }
 

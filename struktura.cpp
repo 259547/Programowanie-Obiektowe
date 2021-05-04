@@ -8,4 +8,5 @@ struct użytkownik{
     std::string kolumny;
     std::string wiersze;
     std::string numertabeli;
+    std::string użytkownik;
 };

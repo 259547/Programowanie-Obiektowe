@@ -1,6 +1,9 @@
 #include<iostream>
 #include "tablica.h"
 #include "tablica_wysw.h"
+#include "tablica_class.h"
+#include "zapisanie_do_pliku.h"
+#include<fstream>
 
 using namespace std;
 
@@ -21,7 +24,7 @@ void menu() {
     for (;;){
 
     wypiszmenu() ;
-    cout<<"Co chcesz zrobić?"<<endl;
+    cout<<"Co chcesz zrobić? \n >>";
     int i;
     cin>> i;   
     switch (i){
@@ -35,25 +38,32 @@ void menu() {
         break;
         case 2:
             wyswietltablica(tablica,x,y);
-
         break;
-        case 3:
 
+        case 3:
+            cout<<"Podaj ile chcesz kolumn";
+            cin>> x;
+            cout<<"Podaj ile chcesz wierszy";
+            cin>> y;
+            tablica= nowatablica(x,y);
         break;
         case 4:
-
+            cout<<wczytanie.open<<endl;
         break;
         case 5:
-
+            cout<<plik.open()<<endl;
         break;
+        
+        
         case 6:
-
+        
+        
         exit(0);
 
 
     }
 
-    }
+ 
 
 }
 

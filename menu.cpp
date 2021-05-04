@@ -48,10 +48,10 @@ void menu() {
             tablica= nowatablica(x,y);
         break;
         case 4:
-            cout<<wczytanie.open<<endl;
+            wczytywanie(&tablica, &x, &y);
         break;
         case 5:
-            cout<<plik.open()<<endl;
+            zapisanie_do_pliku(tablica,&x,&y);
         break;
         
         

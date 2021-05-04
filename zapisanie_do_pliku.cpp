@@ -1,33 +1,45 @@
 #include <iostream>
 #include <fstream>
-#include<string>
-int main() {
+#include <string>
 
 using namespace std;
+void zapisanie_do_pliku(int **tablica, int *x, int *y)
+{
 
-
-
-fstream plik("zapisztablice.txt", ios::out);
-            if (plik.good () == true )
+    fstream plik("zapisztablice.txt", ios::out);
+    if (plik.good() == true)
+    {
+        for (int i = 0; i < *y; i++)
+        {
+            for (int j = 0; j < *x; j++)
             {
-                for(int i=1; i<=100;i++)
-                {
-                    plik<<i<<","; 
-                    plik.flush();
-
-
-                }
-                plik.close();
+                cout << tablica[i][j] << "\t";
             }
+            cout << endl;
+        }
+    }
 }
+
 //pamięć zbuforowana ląduje do pliku
 
-std::fstream wczytanie;
-            wczytanie.open("zapisztablice.txt",std::ios::in);
-            std::string x; 
-            std::string y;
-            getline( wczytanie,x);
-            getline( wczytanie,y);
-            //otwiera arkusz z chwilowo wypisaną wcześniej tablicą
-            //wczytuje tablice
+void wczytywanie(int ***tablica, int *x, int *y)
+{
+    ifstream wczytanie;
+    wczytanie.open("zapisztablice.txt");
+
+
+if (wczytanie.good())
+{
+    int rozmiarX;
+    int rozmiarY;
+    wczytanie>>rozmiarX;
+    wczytanie>>rozmiarY;
+    int **nowatablica;
+    if (rozmiarX < 1 || rozmiarY < 1)
+    {
+        return;
+    }
+}
+//otwiera arkusz z chwilowo wypisaną wcześniej tablicą
+//wczytuje tablice
 }

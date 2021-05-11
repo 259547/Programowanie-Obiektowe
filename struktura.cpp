@@ -28,7 +28,7 @@ struct tablica{
     std::string bledy_komorki;
 };
 
-struct pamięć_podreczna{
+struct pamiec_podreczna{
     std::string komorek;
     std::string program;
     std::string odwolaniesie;

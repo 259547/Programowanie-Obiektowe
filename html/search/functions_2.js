@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['uzyskaj_5fkomorke_19',['uzyskaj_komorke',['../classarkusz.html#a7e40729a223c37b0e7104ed60b40d13d',1,'arkusz']]],
-  ['uzyskaj_5fwar_20',['uzyskaj_war',['../classkomorka.html#abb79be97b16087489f8653b278d7e72f',1,'komorka::uzyskaj_war()'],['../classkomorka__string.html#a1e5dce2c8652543255b7428ff47d0b7c',1,'komorka_string::uzyskaj_war()'],['../classkomorka__double.html#a8ab9a3d2ffb88322d2fbd1fd03ecc7cd',1,'komorka_double::uzyskaj_war()']]]
+  ['maximum_59',['maximum',['../operacje__mat_8cpp.html#a3dbd3d4e24ffa91ed41532ce3b1b42a2',1,'maximum(arkusz *max):&#160;operacje_mat.cpp'],['../operacje__mat_8h.html#a3dbd3d4e24ffa91ed41532ce3b1b42a2',1,'maximum(arkusz *max):&#160;operacje_mat.cpp']]],
+  ['minimum_60',['minimum',['../operacje__mat_8cpp.html#a5a7ad435ad9877ed6b8df672ef009fd4',1,'minimum(arkusz *min):&#160;operacje_mat.cpp'],['../operacje__mat_8h.html#a5a7ad435ad9877ed6b8df672ef009fd4',1,'minimum(arkusz *min):&#160;operacje_mat.cpp']]],
+  ['mnozenie_5farkusza_61',['mnozenie_arkusza',['../operacje__mat_8cpp.html#a38b4bf1bf75610454e3381b656085d24',1,'mnozenie_arkusza(arkusz *mnozenie):&#160;operacje_mat.cpp'],['../operacje__mat_8h.html#a38b4bf1bf75610454e3381b656085d24',1,'mnozenie_arkusza(arkusz *mnozenie):&#160;operacje_mat.cpp']]]
 ];

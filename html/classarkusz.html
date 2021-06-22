@@ -71,16 +71,18 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f6c7ef067ae3d25515d69296dd6b963"><td class="memItemLeft" align="right" valign="top"><a id="a1f6c7ef067ae3d25515d69296dd6b963"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>tworzenie_arkusza</b> (bool *typy_kolumn, int szerokosc, int wysokosc)</td></tr>
+<tr class="memitem:a1f6c7ef067ae3d25515d69296dd6b963"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classarkusz.html#a1f6c7ef067ae3d25515d69296dd6b963">tworzenie_arkusza</a> (bool *typy_kolumn, int szerokosc, int wysokosc)</td></tr>
+<tr class="memdesc:a1f6c7ef067ae3d25515d69296dd6b963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tworzy arkusz.  <a href="classarkusz.html#a1f6c7ef067ae3d25515d69296dd6b963">More...</a><br /></td></tr>
 <tr class="separator:a1f6c7ef067ae3d25515d69296dd6b963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e40729a223c37b0e7104ed60b40d13d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classkomorka.html">komorka</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classarkusz.html#a7e40729a223c37b0e7104ed60b40d13d">uzyskaj_komorke</a> (int x, int y)</td></tr>
 <tr class="separator:a7e40729a223c37b0e7104ed60b40d13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c8228f65df94cf871bbb58fb2ba737"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classarkusz.html#a45c8228f65df94cf871bbb58fb2ba737">getszerokosc</a> ()</td></tr>
 <tr class="separator:a45c8228f65df94cf871bbb58fb2ba737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdde63c48c23f2054be51db17dc7cc89"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classarkusz.html#afdde63c48c23f2054be51db17dc7cc89">getwysokosc</a> ()</td></tr>
+<tr class="memdesc:afdde63c48c23f2054be51db17dc7cc89"><td class="mdescLeft">&#160;</td><td class="mdescRight">użycie getera do sprowadzenia szerokości  <a href="classarkusz.html#afdde63c48c23f2054be51db17dc7cc89">More...</a><br /></td></tr>
 <tr class="separator:afdde63c48c23f2054be51db17dc7cc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e93c3dba7e3cc084e22852c0611f522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classarkusz.html#a9e93c3dba7e3cc084e22852c0611f522">gettyp</a> (int x)</td></tr>
+<tr class="memdesc:a9e93c3dba7e3cc084e22852c0611f522"><td class="mdescLeft">&#160;</td><td class="mdescRight">użycie getera do sprowadzenia wysokości  <a href="classarkusz.html#a9e93c3dba7e3cc084e22852c0611f522">More...</a><br /></td></tr>
 <tr class="separator:a9e93c3dba7e3cc084e22852c0611f522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -98,7 +100,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>tworzenie_arkusza</b>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int uzyskuje komórke </dd></dl>
+<p>użycie getera do sprowadzenia szerokości</p>
 
 </div>
 </div>
@@ -117,15 +120,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>tworzenie_arkusza</b>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>użycie getera do sprowadzenia wysokości </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">x</td><td>wartość sprawdzana czy kolumna jest równa doublowi czy stringowi </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true </dd>
+<dl class="section return"><dt>Returns</dt><dd>true jeśli kolumna double, zwróć wartość </dd>
 <dd>
-false </dd></dl>
+false jeśli kolumna string, pomiń wartość w obliczeniach </dd></dl>
+<p>użycie getera do sprowadzenia typu komórki</p>
 
 </div>
 </div>
@@ -143,7 +149,54 @@ false </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+<p>użycie getera do sprowadzenia szerokości </p>
+<dl class="section return"><dt>Returns</dt><dd>int zwróć szerokość </dd></dl>
+<p>użycie getera do sprowadzenia wysokości</p>
+
+</div>
+</div>
+<a id="a1f6c7ef067ae3d25515d69296dd6b963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6c7ef067ae3d25515d69296dd6b963">&#9670;&nbsp;</a></span>tworzenie_arkusza()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void arkusz::tworzenie_arkusza </td>
+          <td>(</td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>typy_kolumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>szerokosc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wysokosc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tworzy arkusz. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typy_kolumn</td><td>wykorzystuje parametr z klasy arkusz </td></tr>
+    <tr><td class="paramname">szerokosc</td><td>wykorzystuje parametr z klasy arkusz </td></tr>
+    <tr><td class="paramname">wysokosc</td><td>wykorzystuje parametr z klasy arkusz </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -174,18 +227,19 @@ false </dd></dl>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td></td></tr>
-    <tr><td class="paramname">y</td><td></td></tr>
+    <tr><td class="paramname">x</td><td>wiersze - ilosc wierszy </td></tr>
+    <tr><td class="paramname">y</td><td>kolumny - iloc kolumn </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>komorka* </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>komorka* wykorzystuje to inna funkcja </dd></dl>
+<p>wyłuskuje komórkę</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="tablica__class_8h_source.html">tablica_class.h</a></li>
-<li>tablica_class.cpp</li>
+<li><a class="el" href="tablica__class_8cpp.html">tablica_class.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

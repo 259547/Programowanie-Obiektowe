@@ -1,0 +1,99 @@
+\hypertarget{operacje__mat_8cpp}{}\doxysection{operacje\+\_\+mat.\+cpp File Reference}
+\label{operacje__mat_8cpp}\index{operacje\_mat.cpp@{operacje\_mat.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}tablica\+\_\+class.\+h\char`\"{}}\newline
+Include dependency graph for operacje\+\_\+mat.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{operacje__mat_8cpp_a38b4bf1bf75610454e3381b656085d24}{mnozenie\+\_\+arkusza}} (\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$mnozenie)
+\begin{DoxyCompactList}\small\item\em funkcja przemnaża wszystkie wartości w tabelce \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{operacje__mat_8cpp_a1380ab788c4874cb1297a26fd5fc47f0}{sumowanie\+\_\+kolumn1}} (\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$sumowanie\+\_\+kolumn)
+\begin{DoxyCompactList}\small\item\em funkcja sumuje kolumny od góry do dołu a następnie dzięki temu że jest double zwraca informacje o sumie w kolumnach i cała funkcja może zostać wykorzystana w oblcizeniach \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{operacje__mat_8cpp_a5a7ad435ad9877ed6b8df672ef009fd4}{minimum}} (\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$min)
+\begin{DoxyCompactList}\small\item\em funkcja przseszukuje dane poprzez porównanie ze wcześniejszą komórką i sprawdzeniu czy dana komorka jest mniejsza jesli tak to zostawia ją jeśli nie to zmienia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{operacje__mat_8cpp_a3dbd3d4e24ffa91ed41532ce3b1b42a2}{maximum}} (\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$max)
+\begin{DoxyCompactList}\small\item\em funkcja przseszukuje dane poprzez porównanie ze wcześniejszą komórką i sprawdzeniu czy dana komorka jest wieksza jesli tak to zostawia ją jeśli nie to zmienia \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{operacje__mat_8cpp_ad7641e41cb17f287db6a0921fe1126d4}{srednia1}} (\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$srednia)
+\begin{DoxyCompactList}\small\item\em funkcja wywoływana jest poprzez obliczenia proste oraz funkcje sumowanie kolumn gdzie wylicza średnią ze wszystkich kolumn \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{operacje__mat_8cpp_a3dbd3d4e24ffa91ed41532ce3b1b42a2}\label{operacje__mat_8cpp_a3dbd3d4e24ffa91ed41532ce3b1b42a2}} 
+\index{operacje\_mat.cpp@{operacje\_mat.cpp}!maximum@{maximum}}
+\index{maximum@{maximum}!operacje\_mat.cpp@{operacje\_mat.cpp}}
+\doxysubsubsection{\texorpdfstring{maximum()}{maximum()}}
+{\footnotesize\ttfamily void maximum (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$}]{max }\end{DoxyParamCaption})}
+
+
+
+funkcja przseszukuje dane poprzez porównanie ze wcześniejszą komórką i sprawdzeniu czy dana komorka jest wieksza jesli tak to zostawia ją jeśli nie to zmienia 
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & parametr bazujaćy na prostej komendzie logicznej \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{operacje__mat_8cpp_a5a7ad435ad9877ed6b8df672ef009fd4}\label{operacje__mat_8cpp_a5a7ad435ad9877ed6b8df672ef009fd4}} 
+\index{operacje\_mat.cpp@{operacje\_mat.cpp}!minimum@{minimum}}
+\index{minimum@{minimum}!operacje\_mat.cpp@{operacje\_mat.cpp}}
+\doxysubsubsection{\texorpdfstring{minimum()}{minimum()}}
+{\footnotesize\ttfamily void minimum (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$}]{min }\end{DoxyParamCaption})}
+
+
+
+funkcja przseszukuje dane poprzez porównanie ze wcześniejszą komórką i sprawdzeniu czy dana komorka jest mniejsza jesli tak to zostawia ją jeśli nie to zmienia 
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & parametr który oblcizany jest poprzez prostą komende logiczną \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{operacje__mat_8cpp_a38b4bf1bf75610454e3381b656085d24}\label{operacje__mat_8cpp_a38b4bf1bf75610454e3381b656085d24}} 
+\index{operacje\_mat.cpp@{operacje\_mat.cpp}!mnozenie\_arkusza@{mnozenie\_arkusza}}
+\index{mnozenie\_arkusza@{mnozenie\_arkusza}!operacje\_mat.cpp@{operacje\_mat.cpp}}
+\doxysubsubsection{\texorpdfstring{mnozenie\_arkusza()}{mnozenie\_arkusza()}}
+{\footnotesize\ttfamily void mnozenie\+\_\+arkusza (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$}]{mnozenie }\end{DoxyParamCaption})}
+
+
+
+funkcja przemnaża wszystkie wartości w tabelce 
+
+funkcja przemnaża każdą komórkę przez siebie
+
+
+\begin{DoxyParams}{Parameters}
+{\em mnozenie} & parametr który jest odpowiedzialny za mnożenie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{operacje__mat_8cpp_ad7641e41cb17f287db6a0921fe1126d4}\label{operacje__mat_8cpp_ad7641e41cb17f287db6a0921fe1126d4}} 
+\index{operacje\_mat.cpp@{operacje\_mat.cpp}!srednia1@{srednia1}}
+\index{srednia1@{srednia1}!operacje\_mat.cpp@{operacje\_mat.cpp}}
+\doxysubsubsection{\texorpdfstring{srednia1()}{srednia1()}}
+{\footnotesize\ttfamily void srednia1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$}]{srednia }\end{DoxyParamCaption})}
+
+
+
+funkcja wywoływana jest poprzez obliczenia proste oraz funkcje sumowanie kolumn gdzie wylicza średnią ze wszystkich kolumn 
+
+
+\begin{DoxyParams}{Parameters}
+{\em srednia} & parametr który wykorzystywany jest do obliczenia średniej poprzez sume kolumn i podzielenia przez ilość wsystkich komórek \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{operacje__mat_8cpp_a1380ab788c4874cb1297a26fd5fc47f0}\label{operacje__mat_8cpp_a1380ab788c4874cb1297a26fd5fc47f0}} 
+\index{operacje\_mat.cpp@{operacje\_mat.cpp}!sumowanie\_kolumn1@{sumowanie\_kolumn1}}
+\index{sumowanie\_kolumn1@{sumowanie\_kolumn1}!operacje\_mat.cpp@{operacje\_mat.cpp}}
+\doxysubsubsection{\texorpdfstring{sumowanie\_kolumn1()}{sumowanie\_kolumn1()}}
+{\footnotesize\ttfamily double sumowanie\+\_\+kolumn1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classarkusz}{arkusz}} $\ast$}]{sumowanie\+\_\+kolumn }\end{DoxyParamCaption})}
+
+
+
+funkcja sumuje kolumny od góry do dołu a następnie dzięki temu że jest double zwraca informacje o sumie w kolumnach i cała funkcja może zostać wykorzystana w oblcizeniach 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sumowanie\+\_\+kolumn} & \\
+\hline
+\end{DoxyParams}

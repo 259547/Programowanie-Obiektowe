@@ -1,42 +1,137 @@
 \begin{theindex}
 
-  \item {arkusz}, \hyperpage{7}
-    \subitem {getszerokosc}, \hyperpage{7}
-    \subitem {gettyp}, \hyperpage{7}
-    \subitem {getwysokosc}, \hyperpage{8}
-    \subitem {uzyskaj\_komorke}, \hyperpage{8}
+  \item {arkusz}, \hyperpage{9}
+    \subitem {getszerokosc}, \hyperpage{9}
+    \subitem {gettyp}, \hyperpage{9}
+    \subitem {getwysokosc}, \hyperpage{10}
+    \subitem {tworzenie\_arkusza}, \hyperpage{10}
+    \subitem {uzyskaj\_komorke}, \hyperpage{10}
 
   \indexspace
 
   \item {dodaj\_war}
-    \subitem {komorka\_double}, \hyperpage{9}
-    \subitem {komorka\_string}, \hyperpage{10}
+    \subitem {komorka\_double}, \hyperpage{12}
+    \subitem {komorka\_string}, \hyperpage{13}
 
   \indexspace
 
   \item {getszerokosc}
-    \subitem {arkusz}, \hyperpage{7}
+    \subitem {arkusz}, \hyperpage{9}
   \item {gettyp}
-    \subitem {arkusz}, \hyperpage{7}
+    \subitem {arkusz}, \hyperpage{9}
   \item {getwysokosc}
-    \subitem {arkusz}, \hyperpage{8}
+    \subitem {arkusz}, \hyperpage{10}
 
   \indexspace
 
-  \item {komorka}, \hyperpage{8}
-  \item {komorka\_double}, \hyperpage{8}
-    \subitem {dodaj\_war}, \hyperpage{9}
-    \subitem {uzyskaj\_war}, \hyperpage{9}
-  \item {komorka\_string}, \hyperpage{9}
-    \subitem {dodaj\_war}, \hyperpage{10}
-    \subitem {uzyskaj\_war}, \hyperpage{10}
+  \item {komorka}, \hyperpage{11}
+    \subitem {uzyskaj\_war}, \hyperpage{11}
+  \item {komorka\_double}, \hyperpage{12}
+    \subitem {dodaj\_war}, \hyperpage{12}
+    \subitem {uzyskaj\_war}, \hyperpage{12}
+  \item {komorka\_string}, \hyperpage{13}
+    \subitem {dodaj\_war}, \hyperpage{13}
+    \subitem {uzyskaj\_war}, \hyperpage{13}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{15}
+  \item {maximum}
+    \subitem {operacje\_mat.cpp}, \hyperpage{16}
+    \subitem {operacje\_mat.h}, \hyperpage{18}
+  \item {menu.cpp}, \hyperpage{15}
+  \item {minimum}
+    \subitem {operacje\_mat.cpp}, \hyperpage{16}
+    \subitem {operacje\_mat.h}, \hyperpage{18}
+  \item {mnozenie\_arkusza}
+    \subitem {operacje\_mat.cpp}, \hyperpage{16}
+    \subitem {operacje\_mat.h}, \hyperpage{18}
+
+  \indexspace
+
+  \item {nowatablica}
+    \subitem {tablica.cpp}, \hyperpage{20}
+    \subitem {tablica.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {operacje\_mat.cpp}, \hyperpage{15}
+    \subitem {maximum}, \hyperpage{16}
+    \subitem {minimum}, \hyperpage{16}
+    \subitem {mnozenie\_arkusza}, \hyperpage{16}
+    \subitem {srednia1}, \hyperpage{17}
+    \subitem {sumowanie\_kolumn1}, \hyperpage{17}
+  \item {operacje\_mat.h}, \hyperpage{17}
+    \subitem {maximum}, \hyperpage{18}
+    \subitem {minimum}, \hyperpage{18}
+    \subitem {mnozenie\_arkusza}, \hyperpage{18}
+    \subitem {srednia1}, \hyperpage{19}
+    \subitem {sumowanie\_kolumn1}, \hyperpage{19}
+
+  \indexspace
+
+  \item {srednia1}
+    \subitem {operacje\_mat.cpp}, \hyperpage{17}
+    \subitem {operacje\_mat.h}, \hyperpage{19}
+  \item {sumowanie\_kolumn1}
+    \subitem {operacje\_mat.cpp}, \hyperpage{17}
+    \subitem {operacje\_mat.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {tablica.cpp}, \hyperpage{20}
+    \subitem {nowatablica}, \hyperpage{20}
+    \subitem {zapisanie\_do\_pliku}, \hyperpage{20}
+  \item {tablica.h}, \hyperpage{21}
+    \subitem {nowatablica}, \hyperpage{21}
+    \subitem {zapisanie\_do\_pliku}, \hyperpage{21}
+  \item {tablica\_class.cpp}, \hyperpage{22}
+  \item {tablica\_class.h}, \hyperpage{22}
+  \item {tablica\_wysw.cpp}, \hyperpage{22}
+    \subitem {wyswietltablica}, \hyperpage{22}
+  \item {tablica\_wysw.h}, \hyperpage{23}
+    \subitem {wyswietltablica}, \hyperpage{23}
+  \item {tworzenie\_arkusza}
+    \subitem {arkusz}, \hyperpage{10}
 
   \indexspace
 
   \item {uzyskaj\_komorke}
-    \subitem {arkusz}, \hyperpage{8}
+    \subitem {arkusz}, \hyperpage{10}
   \item {uzyskaj\_war}
-    \subitem {komorka\_double}, \hyperpage{9}
-    \subitem {komorka\_string}, \hyperpage{10}
+    \subitem {komorka}, \hyperpage{11}
+    \subitem {komorka\_double}, \hyperpage{12}
+    \subitem {komorka\_string}, \hyperpage{13}
+
+  \indexspace
+
+  \item {wczytaj\_arkusz}
+    \subitem {zapisz\_arkusz.cpp}, \hyperpage{24}
+    \subitem {zapisz\_arkusz.h}, \hyperpage{24}
+  \item {wyswietltablica}
+    \subitem {tablica\_wysw.cpp}, \hyperpage{22}
+    \subitem {tablica\_wysw.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {zapisanie\_do\_pliku}
+    \subitem {tablica.cpp}, \hyperpage{20}
+    \subitem {tablica.h}, \hyperpage{21}
+  \item {zapisz\_arkusz}
+    \subitem {zapisz\_arkusz.cpp}, \hyperpage{24}
+    \subitem {zapisz\_arkusz.h}, \hyperpage{24}
+  \item {zapisz\_arkusz.cpp}, \hyperpage{23}
+    \subitem {wczytaj\_arkusz}, \hyperpage{24}
+    \subitem {zapisz\_arkusz}, \hyperpage{24}
+  \item {zapisz\_arkusz.h}, \hyperpage{24}
+    \subitem {wczytaj\_arkusz}, \hyperpage{24}
+    \subitem {zapisz\_arkusz}, \hyperpage{24}
+  \item {zmien\_komorke}
+    \subitem {zmien\_komorke.cpp}, \hyperpage{25}
+    \subitem {zmien\_komorke.h}, \hyperpage{26}
+  \item {zmien\_komorke.cpp}, \hyperpage{25}
+    \subitem {zmien\_komorke}, \hyperpage{25}
+  \item {zmien\_komorke.h}, \hyperpage{25}
+    \subitem {zmien\_komorke}, \hyperpage{26}
 
 \end{theindex}

@@ -4,20 +4,72 @@
 \contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
 \contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}arkusz Class Reference}{7}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Member Function Documentation}{7}{subsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.1}getszerokosc()}{7}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}gettyp()}{7}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}getwysokosc()}{8}{subsubsection.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.1.4}uzyskaj\_komorke()}{8}{subsubsection.4.1.1.4}%
-\contentsline {section}{\numberline {4.2}komorka Class Reference}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}komorka\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}double Class Reference}{8}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Member Function Documentation}{9}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}dodaj\_war()}{9}{subsubsection.4.3.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}uzyskaj\_war()}{9}{subsubsection.4.3.1.2}%
-\contentsline {section}{\numberline {4.4}komorka\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}string Class Reference}{9}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Member Function Documentation}{10}{subsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.1}dodaj\_war()}{10}{subsubsection.4.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.2}uzyskaj\_war()}{10}{subsubsection.4.4.1.2}%
-\contentsline {chapter}{Index}{11}{section*.4}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}arkusz Class Reference}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Member Function Documentation}{9}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}getszerokosc()}{9}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}gettyp()}{9}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}getwysokosc()}{10}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}tworzenie\_arkusza()}{10}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}uzyskaj\_komorke()}{10}{subsubsection.5.1.1.5}%
+\contentsline {section}{\numberline {5.2}komorka Class Reference}{11}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Member Function Documentation}{11}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}uzyskaj\_war()}{11}{subsubsection.5.2.1.1}%
+\contentsline {section}{\numberline {5.3}komorka\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}double Class Reference}{12}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Member Function Documentation}{12}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}dodaj\_war()}{12}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}uzyskaj\_war()}{12}{subsubsection.5.3.1.2}%
+\contentsline {section}{\numberline {5.4}komorka\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}string Class Reference}{13}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Member Function Documentation}{13}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}dodaj\_war()}{13}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}uzyskaj\_war()}{13}{subsubsection.5.4.1.2}%
+\contentsline {chapter}{\numberline {6}File Documentation}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}menu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{15}{section.6.2}%
+\contentsline {section}{\numberline {6.3}operacje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mat.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{15}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Function Documentation}{16}{subsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1.1}maximum()}{16}{subsubsection.6.3.1.1}%
+\contentsline {subsubsection}{\numberline {6.3.1.2}minimum()}{16}{subsubsection.6.3.1.2}%
+\contentsline {subsubsection}{\numberline {6.3.1.3}mnozenie\_arkusza()}{17}{subsubsection.6.3.1.3}%
+\contentsline {subsubsection}{\numberline {6.3.1.4}srednia1()}{17}{subsubsection.6.3.1.4}%
+\contentsline {subsubsection}{\numberline {6.3.1.5}sumowanie\_kolumn1()}{17}{subsubsection.6.3.1.5}%
+\contentsline {section}{\numberline {6.4}operacje\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mat.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{17}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Function Documentation}{18}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}maximum()}{18}{subsubsection.6.4.1.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.2}minimum()}{18}{subsubsection.6.4.1.2}%
+\contentsline {subsubsection}{\numberline {6.4.1.3}mnozenie\_arkusza()}{19}{subsubsection.6.4.1.3}%
+\contentsline {subsubsection}{\numberline {6.4.1.4}srednia1()}{19}{subsubsection.6.4.1.4}%
+\contentsline {subsubsection}{\numberline {6.4.1.5}sumowanie\_kolumn1()}{19}{subsubsection.6.4.1.5}%
+\contentsline {section}{\numberline {6.5}tablica.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{20}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Function Documentation}{20}{subsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.1}nowatablica()}{20}{subsubsection.6.5.1.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.2}zapisanie\_do\_pliku()}{20}{subsubsection.6.5.1.2}%
+\contentsline {section}{\numberline {6.6}tablica.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{21}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Function Documentation}{21}{subsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.1}nowatablica()}{21}{subsubsection.6.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.2}zapisanie\_do\_pliku()}{21}{subsubsection.6.6.1.2}%
+\contentsline {section}{\numberline {6.7}tablica\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}class.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{22}{section.6.7}%
+\contentsline {section}{\numberline {6.8}tablica\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}class.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{22}{section.6.8}%
+\contentsline {section}{\numberline {6.9}tablica\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}wysw.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{22}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Function Documentation}{22}{subsection.6.9.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.1}wyswietltablica()}{22}{subsubsection.6.9.1.1}%
+\contentsline {section}{\numberline {6.10}tablica\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}wysw.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{23}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Function Documentation}{23}{subsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.1.1}wyswietltablica()}{23}{subsubsection.6.10.1.1}%
+\contentsline {section}{\numberline {6.11}zapisz\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}arkusz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{23}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Function Documentation}{24}{subsection.6.11.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.1}wczytaj\_arkusz()}{24}{subsubsection.6.11.1.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.2}zapisz\_arkusz()}{24}{subsubsection.6.11.1.2}%
+\contentsline {section}{\numberline {6.12}zapisz\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}arkusz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{24}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Function Documentation}{24}{subsection.6.12.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.1}wczytaj\_arkusz()}{24}{subsubsection.6.12.1.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.2}zapisz\_arkusz()}{25}{subsubsection.6.12.1.2}%
+\contentsline {section}{\numberline {6.13}zmien\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}komorke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{25}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Function Documentation}{25}{subsection.6.13.1}%
+\contentsline {subsubsection}{\numberline {6.13.1.1}zmien\_komorke()}{25}{subsubsection.6.13.1.1}%
+\contentsline {section}{\numberline {6.14}zmien\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}komorke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{25}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Function Documentation}{26}{subsection.6.14.1}%
+\contentsline {subsubsection}{\numberline {6.14.1.1}zmien\_komorke()}{26}{subsubsection.6.14.1.1}%
+\contentsline {chapter}{Index}{27}{section*.17}%

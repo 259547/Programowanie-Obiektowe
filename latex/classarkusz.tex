@@ -3,17 +3,16 @@
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classarkusz_a1f6c7ef067ae3d25515d69296dd6b963}\label{classarkusz_a1f6c7ef067ae3d25515d69296dd6b963}} 
-void {\bfseries tworzenie\+\_\+arkusza} (bool $\ast$typy\+\_\+kolumn, int szerokosc, int wysokosc)
-\item 
+void \mbox{\hyperlink{classarkusz_a1f6c7ef067ae3d25515d69296dd6b963}{tworzenie\+\_\+arkusza}} (bool $\ast$typy\+\_\+kolumn, int szerokosc, int wysokosc)
+\begin{DoxyCompactList}\small\item\em Tworzy arkusz. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classkomorka}{komorka}} $\ast$ \mbox{\hyperlink{classarkusz_a7e40729a223c37b0e7104ed60b40d13d}{uzyskaj\+\_\+komorke}} (int x, int y)
 \item 
 int \mbox{\hyperlink{classarkusz_a45c8228f65df94cf871bbb58fb2ba737}{getszerokosc}} ()
 \item 
 int \mbox{\hyperlink{classarkusz_afdde63c48c23f2054be51db17dc7cc89}{getwysokosc}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em użycie getera do sprowadzenia szerokości \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}{gettyp}} (int x)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em użycie getera do sprowadzenia wysokości \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Member Function Documentation}
@@ -24,33 +23,60 @@ bool \mbox{\hyperlink{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}{gettyp}} (i
 {\footnotesize\ttfamily int arkusz\+::getszerokosc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \begin{DoxyReturn}{Returns}
-int 
+int uzyskuje komórke 
 \end{DoxyReturn}
-\mbox{\Hypertarget{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}\label{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}} 
+użycie getera do sprowadzenia szerokości\mbox{\Hypertarget{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}\label{classarkusz_a9e93c3dba7e3cc084e22852c0611f522}} 
 \index{arkusz@{arkusz}!gettyp@{gettyp}}
 \index{gettyp@{gettyp}!arkusz@{arkusz}}
 \doxysubsubsection{\texorpdfstring{gettyp()}{gettyp()}}
 {\footnotesize\ttfamily bool arkusz\+::gettyp (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
 
 
+
+użycie getera do sprowadzenia wysokości 
+
+
 \begin{DoxyParams}{Parameters}
-{\em x} & \\
+{\em x} & wartość sprawdzana czy kolumna jest równa doublowi czy stringowi \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-true 
+true jeśli kolumna double, zwróć wartość 
 
-false 
+false jeśli kolumna string, pomiń wartość w obliczeniach 
 \end{DoxyReturn}
-\mbox{\Hypertarget{classarkusz_afdde63c48c23f2054be51db17dc7cc89}\label{classarkusz_afdde63c48c23f2054be51db17dc7cc89}} 
+użycie getera do sprowadzenia typu komórki\mbox{\Hypertarget{classarkusz_afdde63c48c23f2054be51db17dc7cc89}\label{classarkusz_afdde63c48c23f2054be51db17dc7cc89}} 
 \index{arkusz@{arkusz}!getwysokosc@{getwysokosc}}
 \index{getwysokosc@{getwysokosc}!arkusz@{arkusz}}
 \doxysubsubsection{\texorpdfstring{getwysokosc()}{getwysokosc()}}
 {\footnotesize\ttfamily int arkusz\+::getwysokosc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+użycie getera do sprowadzenia szerokości 
+
 \begin{DoxyReturn}{Returns}
-int 
+int zwróć szerokość 
 \end{DoxyReturn}
+użycie getera do sprowadzenia wysokości\mbox{\Hypertarget{classarkusz_a1f6c7ef067ae3d25515d69296dd6b963}\label{classarkusz_a1f6c7ef067ae3d25515d69296dd6b963}} 
+\index{arkusz@{arkusz}!tworzenie\_arkusza@{tworzenie\_arkusza}}
+\index{tworzenie\_arkusza@{tworzenie\_arkusza}!arkusz@{arkusz}}
+\doxysubsubsection{\texorpdfstring{tworzenie\_arkusza()}{tworzenie\_arkusza()}}
+{\footnotesize\ttfamily void arkusz\+::tworzenie\+\_\+arkusza (\begin{DoxyParamCaption}\item[{bool $\ast$}]{typy\+\_\+kolumn,  }\item[{int}]{szerokosc,  }\item[{int}]{wysokosc }\end{DoxyParamCaption})}
+
+
+
+Tworzy arkusz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em typy\+\_\+kolumn} & wykorzystuje parametr z klasy arkusz \\
+\hline
+{\em szerokosc} & wykorzystuje parametr z klasy arkusz \\
+\hline
+{\em wysokosc} & wykorzystuje parametr z klasy arkusz \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{classarkusz_a7e40729a223c37b0e7104ed60b40d13d}\label{classarkusz_a7e40729a223c37b0e7104ed60b40d13d}} 
 \index{arkusz@{arkusz}!uzyskaj\_komorke@{uzyskaj\_komorke}}
 \index{uzyskaj\_komorke@{uzyskaj\_komorke}!arkusz@{arkusz}}
@@ -59,17 +85,17 @@ int
 
 
 \begin{DoxyParams}{Parameters}
-{\em x} & \\
+{\em x} & wiersze -\/ ilosc wierszy \\
 \hline
-{\em y} & \\
+{\em y} & kolumny -\/ iloc kolumn \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-komorka$\ast$ 
+komorka$\ast$ wykorzystuje to inna funkcja 
 \end{DoxyReturn}
-
+wyłuskuje komórkę
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-tablica\+\_\+class.\+h\item 
-tablica\+\_\+class.\+cpp\end{DoxyCompactItemize}
+\mbox{\hyperlink{tablica__class_8h}{tablica\+\_\+class.\+h}}\item 
+\mbox{\hyperlink{tablica__class_8cpp}{tablica\+\_\+class.\+cpp}}\end{DoxyCompactItemize}

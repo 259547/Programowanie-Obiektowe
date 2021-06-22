@@ -12,9 +12,9 @@ Collaboration diagram for komorka\+\_\+string\+:
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{classkomorka__string_a533cf0f752213027d9982e88d1e8efef}{dodaj\+\_\+war}} (std\+::string wartosc)
-\item 
+\begin{DoxyCompactList}\small\item\em jeśli nie wpiszemy wartości do komórki i wyświetlimy jej zawartość ukażą się nam wykrzykniki \end{DoxyCompactList}\item 
 std\+::string \mbox{\hyperlink{classkomorka__string_a1e5dce2c8652543255b7428ff47d0b7c}{uzyskaj\+\_\+war}} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em pozwala dodać wartość za pomocą funkcji która wyłuskuje samą wartość dla kalsy string \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Member Function Documentation}
@@ -26,6 +26,10 @@ std\+::string \mbox{\hyperlink{classkomorka__string_a1e5dce2c8652543255b7428ff47
 
 
 
+jeśli nie wpiszemy wartości do komórki i wyświetlimy jej zawartość ukażą się nam wykrzykniki 
+
+funkcja wyłuskuje wartość z komórki
+
 Implements \mbox{\hyperlink{classkomorka}{komorka}}.
 
 \mbox{\Hypertarget{classkomorka__string_a1e5dce2c8652543255b7428ff47d0b7c}\label{classkomorka__string_a1e5dce2c8652543255b7428ff47d0b7c}} 
@@ -34,10 +38,14 @@ Implements \mbox{\hyperlink{classkomorka}{komorka}}.
 \doxysubsubsection{\texorpdfstring{uzyskaj\_war()}{uzyskaj\_war()}}
 {\footnotesize\ttfamily std\+::string komorka\+\_\+string\+::uzyskaj\+\_\+war (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
+
+
+pozwala dodać wartość za pomocą funkcji która wyłuskuje samą wartość dla kalsy string 
+
 \begin{DoxyReturn}{Returns}
-std\+::string 
+std\+::string dlatego że tworzymy stringi w tabeli i klasa odpowaida stringowi 
 \end{DoxyReturn}
-Construct a new return object
+Construct a new return object Uzyskuje wartość poprzez funkcje
 
 Implements \mbox{\hyperlink{classkomorka_abb79be97b16087489f8653b278d7e72f}{komorka}}.
 
@@ -45,5 +53,5 @@ Implements \mbox{\hyperlink{classkomorka_abb79be97b16087489f8653b278d7e72f}{komo
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-tablica\+\_\+class.\+h\item 
-tablica\+\_\+class.\+cpp\end{DoxyCompactItemize}
+\mbox{\hyperlink{tablica__class_8h}{tablica\+\_\+class.\+h}}\item 
+\mbox{\hyperlink{tablica__class_8cpp}{tablica\+\_\+class.\+cpp}}\end{DoxyCompactItemize}

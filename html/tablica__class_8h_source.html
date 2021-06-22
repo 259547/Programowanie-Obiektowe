@@ -65,35 +65,65 @@ $(function() {
 <div class="title">tablica_class.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef tablica_class_h</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define tablica_class_h</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">int</span> Z;</div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef tablica_class_h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#define tablica_class_h</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classtabela.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtabela.html">tabela</a>{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> kolumny,wiersze;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    Z*mem;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="classtabela.html">tabela</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> );</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    ~<a class="code" href="classtabela.html">tabela</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    Z&amp; operator()(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> );</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">bool</span> resize (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> );</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classkomorka.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classkomorka.html">komorka</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> dodaj_war(std::string wartosc) = 0;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">virtual</span> std::string <a class="code" href="classkomorka.html#abb79be97b16087489f8653b278d7e72f">uzyskaj_war</a>() = 0;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif </span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classkomorka__string.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classkomorka__string.html">komorka_string</a> : <span class="keyword">public</span> <a class="code" href="classkomorka.html">komorka</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    std::string wartosc = <span class="stringliteral">&quot;!&quot;</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classkomorka__string.html#a533cf0f752213027d9982e88d1e8efef">dodaj_war</a>(std::string wartosc);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    std::string <a class="code" href="classkomorka__string.html#a1e5dce2c8652543255b7428ff47d0b7c">uzyskaj_war</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classkomorka__double.html">   45</a></span>&#160;<span class="keyword">class </span><a class="code" href="classkomorka__double.html">komorka_double</a> : <span class="keyword">public</span> <a class="code" href="classkomorka.html">komorka</a></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">double</span> wartosc = 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classkomorka__double.html#ac998bb8081d8ba9f91988094e3834a6b">dodaj_war</a>(std::string wartosc);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::string <a class="code" href="classkomorka__double.html#a8ab9a3d2ffb88322d2fbd1fd03ecc7cd">uzyskaj_war</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    };</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classarkusz.html">   62</a></span>&#160;<span class="keyword">class </span><a class="code" href="classarkusz.html">arkusz</a></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">bool</span> *typy_kolumn;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="classkomorka.html">komorka</a> ***tablica;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> szerokosc;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> wysokosc;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> tworzenie_arkusza(<span class="keywordtype">bool</span> *typy_kolumn, <span class="keywordtype">int</span> szerokosc, <span class="keywordtype">int</span> wysokosc);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classkomorka.html">komorka</a> *<a class="code" href="classarkusz.html#a7e40729a223c37b0e7104ed60b40d13d">uzyskaj_komorke</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classarkusz.html#a45c8228f65df94cf871bbb58fb2ba737">getszerokosc</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classarkusz.html#afdde63c48c23f2054be51db17dc7cc89">getwysokosc</a>();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classarkusz.html#a9e93c3dba7e3cc084e22852c0611f522">gettyp</a>(<span class="keywordtype">int</span> x);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;};</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclasstabela_html"><div class="ttname"><a href="classtabela.html">tabela</a></div><div class="ttdef"><b>Definition:</b> tablica_class.h:7</div></div>
+<div class="ttc" id="aclassarkusz_html_afdde63c48c23f2054be51db17dc7cc89"><div class="ttname"><a href="classarkusz.html#afdde63c48c23f2054be51db17dc7cc89">arkusz::getwysokosc</a></div><div class="ttdeci">int getwysokosc()</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:83</div></div>
+<div class="ttc" id="aclasskomorka__string_html_a1e5dce2c8652543255b7428ff47d0b7c"><div class="ttname"><a href="classkomorka__string.html#a1e5dce2c8652543255b7428ff47d0b7c">komorka_string::uzyskaj_war</a></div><div class="ttdeci">std::string uzyskaj_war()</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:23</div></div>
+<div class="ttc" id="aclassarkusz_html_a45c8228f65df94cf871bbb58fb2ba737"><div class="ttname"><a href="classarkusz.html#a45c8228f65df94cf871bbb58fb2ba737">arkusz::getszerokosc</a></div><div class="ttdeci">int getszerokosc()</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:74</div></div>
+<div class="ttc" id="aclasskomorka__double_html"><div class="ttname"><a href="classkomorka__double.html">komorka_double</a></div><div class="ttdef"><b>Definition:</b> tablica_class.h:45</div></div>
+<div class="ttc" id="aclasskomorka__string_html"><div class="ttname"><a href="classkomorka__string.html">komorka_string</a></div><div class="ttdef"><b>Definition:</b> tablica_class.h:24</div></div>
+<div class="ttc" id="aclasskomorka__double_html_a8ab9a3d2ffb88322d2fbd1fd03ecc7cd"><div class="ttname"><a href="classkomorka__double.html#a8ab9a3d2ffb88322d2fbd1fd03ecc7cd">komorka_double::uzyskaj_war</a></div><div class="ttdeci">std::string uzyskaj_war()</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:31</div></div>
+<div class="ttc" id="aclassarkusz_html"><div class="ttname"><a href="classarkusz.html">arkusz</a></div><div class="ttdef"><b>Definition:</b> tablica_class.h:62</div></div>
+<div class="ttc" id="aclasskomorka_html"><div class="ttname"><a href="classkomorka.html">komorka</a></div><div class="ttdef"><b>Definition:</b> tablica_class.h:6</div></div>
+<div class="ttc" id="aclasskomorka_html_abb79be97b16087489f8653b278d7e72f"><div class="ttname"><a href="classkomorka.html#abb79be97b16087489f8653b278d7e72f">komorka::uzyskaj_war</a></div><div class="ttdeci">virtual std::string uzyskaj_war()=0</div></div>
+<div class="ttc" id="aclassarkusz_html_a9e93c3dba7e3cc084e22852c0611f522"><div class="ttname"><a href="classarkusz.html#a9e93c3dba7e3cc084e22852c0611f522">arkusz::gettyp</a></div><div class="ttdeci">bool gettyp(int x)</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:91</div></div>
+<div class="ttc" id="aclasskomorka__string_html_a533cf0f752213027d9982e88d1e8efef"><div class="ttname"><a href="classkomorka__string.html#a533cf0f752213027d9982e88d1e8efef">komorka_string::dodaj_war</a></div><div class="ttdeci">void dodaj_war(std::string wartosc)</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:7</div></div>
+<div class="ttc" id="aclassarkusz_html_a7e40729a223c37b0e7104ed60b40d13d"><div class="ttname"><a href="classarkusz.html#a7e40729a223c37b0e7104ed60b40d13d">arkusz::uzyskaj_komorke</a></div><div class="ttdeci">komorka * uzyskaj_komorke(int x, int y)</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:65</div></div>
+<div class="ttc" id="aclasskomorka__double_html_ac998bb8081d8ba9f91988094e3834a6b"><div class="ttname"><a href="classkomorka__double.html#ac998bb8081d8ba9f91988094e3834a6b">komorka_double::dodaj_war</a></div><div class="ttdeci">void dodaj_war(std::string wartosc)</div><div class="ttdef"><b>Definition:</b> tablica_class.cpp:15</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">
